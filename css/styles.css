@@ -309,8 +309,9 @@ address{
     margin-left: 669px;
 }
 .team_flex{
-    margin-top: 50px;
-    margin-left: 0px;
+    /* margin-top: 50px;
+    margin-left: 0px; */
+    justify-content: space-between;
     display: inline-flex;
     width: 1191px;
     height: 368px;
@@ -424,17 +425,18 @@ address > a{
     /* border: 1px solid crimson; */
     display: flex;
     list-style: none;
-    
+    justify-content: space-between;
+
     height: 38px;
     width: 611px;
 
-    font-weight: 500px;
+    /* font-weight: 500px;
     font-size: 16px;
     line-height: 26px;
-    padding: 0px 0px;
+    padding: 0px 0px; */
 
     margin-left: 495px;
-    margin-top: 106px;
+    margin-top: 106px; 
 }
 .boton_portafolio > .boton_item:not(:last-child){
     margin-right: 8px;
@@ -442,10 +444,9 @@ address > a{
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-/* identical to box height, or 162% */
 
-text-align: center;
-letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .boton_portafolio .link{
     display: flex;
@@ -477,6 +478,7 @@ letter-spacing: 0.03em;
 
     padding: 0px;
     margin: 30px 0px;
+    /* justify-content: space-between; */
 
     gap: 24px;
 }
